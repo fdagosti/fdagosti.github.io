@@ -16,11 +16,10 @@
 title: François D'Agostini
 email: francois.dagostini@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Not talking about me
+  Let's talk about code 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  fdagosti
 
 header_pages:
   - writing/writing.html
@@ -29,9 +28,7 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
