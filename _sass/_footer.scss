@@ -1,0 +1,23 @@
+// Sticky footer based on: http://mystrd.at/modern-clean-css-sticky-footer/
+
+$footer-height: 20px;
+$footer-vertical-padding: 10px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: $footer-height + ($footer-vertical-padding * 2);
+}
+
+.sticky-footer {
+    border-top: 1px solid lightgray;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-top: $footer-vertical-padding;
+  
+  width: 100%;
+}

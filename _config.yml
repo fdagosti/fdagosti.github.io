@@ -29,15 +29,21 @@ header_pages:
 # Build settings
 markdown: kramdown
 
+# Bio
+name: "François D'Agostini"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# URLs
+contact_urls:
+  linkedin:
+    url: "https://www.linkedin.com/in/fdagostini"
+    label: "LinkedIn"
+    icon: "linkedin-square"
+  github:
+    url: "https://github.com/fdagosti"
+    label: "GitHub"
+    icon: "github-square"
+  email:
+    url: "mailto:francois.dagostini@gmail.com"
+    label: "Email"
+    value: "francois.dagostini@gmail.com"
+    icon: "envelope-square"
