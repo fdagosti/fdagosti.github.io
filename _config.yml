@@ -23,7 +23,7 @@ github_username:  fdagosti
 
 header_pages:
   - writing/writing.html
-  - projects.md
+  - projects/projects.html
   - resume/resume.html
 
 # Build settings

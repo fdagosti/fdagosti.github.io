@@ -1,0 +1,32 @@
+- name: "Set Top Box Video Application"
+  date: "2017"
+  description: |
+    This is a prototype of a video based application used in Set Top Boxes. It is built on Angular 2 with minimal external libararies.
+    The goal is to mimic a "leanback" experience which is a very different experience from a classic website. 
+    As an example, the video is always run full screen in the background. This application does not use responsiveness as it is not made to run on a desktop.
+    Most of the animations are done using CSS transforms. The whole sizing dimension is inspired from the Youtube TV app.
+    At the root level, it uses a "vw" font size that will set it propoertional to the window size.
+    Then, all dimensions are expressed in "em"s so that everything scales up when window is resized.
+    This has the benefits of having the app working on any resolution and aspect ratio (Full HD, HD, 4K, 16/9, 4/3...)
+  url: "http://infinite-ux.herokuapp.com/"
+  image: "desktop-video-app.jpg"
+- name: "Desktop video Application"
+  date: "2017"
+  description: |
+    This is a prototype website whoe goal is to provie the user with several videos to watch.
+    This was done using classic responsive utilities (bootstrap), making the app suitable for desktop and mobile consumption
+    Under the hood, it is based on Angular 2, Bootstrap 4 and Hammer.js
+    It is taking its data from The Movie Database
+  url: "http://iux-tv.herokuapp.com/"
+  image: "stb-video-app.jpg"
+- name: "Zenigmes: Mathematical riddles for classroom"
+  date: "2016"
+  description: |
+    This is a website done for teachers in schools. It allows teachers to create riddles, quizzes and other questions using a rich editor
+    and create "challenges" for the students to answer those questions. 
+    Typical challenges are done during a week or even a full year, where students get a new quizz every week.
+    Students get points by answering correctly the quizzes and are getting a leaderboard to compare with each other.
+    Teachers can create challenges in advance and have the challenges unfold automatically, week after week or day after day.
+    Finally, teachers get some data on who answered when and accurately or not. This allows Teachers to understand their students' problems
+  url: "http://www.zenigmes.fr/"
+  image: "zenigmes.jpg"
