@@ -29,6 +29,10 @@ header_pages:
 # Build settings
 markdown: kramdown
 
+sass:
+    load_paths:
+        - _sass
+
 # Bio
 name: "François D'Agostini"
 
